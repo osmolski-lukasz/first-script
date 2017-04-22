@@ -16,10 +16,10 @@ var a,
     value = (a * a) + (2 * a * b) - (b * b);
 console.log(value);
 
-var value = value > 0 ?
+value = value > 0 ?
     console.log('Wynik dodatni')
     : console.log('Wynik ujemny');
 
-var value = value === 0 ?
+value = value === 0 ?
     console.log('Jest równe 0')
     : console.log('Jest różne od zera');
